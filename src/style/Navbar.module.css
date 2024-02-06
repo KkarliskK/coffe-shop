@@ -1,0 +1,17 @@
+.navBar{
+    display: flex;
+    width: 60%;
+    padding: 12px;
+}
+
+.navbarItem{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+    .navbarText{
+        font-size: 30px;
+        margin: 0;
+    }
+}
+
