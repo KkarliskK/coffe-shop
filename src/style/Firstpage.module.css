@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+.bigText{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-size: 188px;
+    letter-spacing: 2px;
+    color: white;
+}

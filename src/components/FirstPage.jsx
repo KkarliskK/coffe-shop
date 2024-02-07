@@ -1,10 +1,10 @@
-import '../style/Firstpage.module.css'
+import css from '../style/Firstpage.module.css'
 
 
 function Firstpage() {
     return (
             <>
-                <h1>Coffe shop</h1>
+                <h1 className={css.bigText}>Coffe Time</h1>
             </>
     );
 }
