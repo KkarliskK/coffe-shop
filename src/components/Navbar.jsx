@@ -1,5 +1,6 @@
 import css from '../style/Navbar.module.css';
 import {Link} from "react-router-dom";
+import logo from "../assets/logo.png";
 
 function Navbar() {
 
@@ -28,7 +29,7 @@ function Navbar() {
                 </div>
                 <div className={css.logoBar}>
                     <Link to='/' className={css.logoItem}>
-                        <h1 className={css.h1}>Your logo</h1>
+                        <img src={logo} />
                     </Link>
                 </div>
             </div>
