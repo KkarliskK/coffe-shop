@@ -7,6 +7,9 @@ import Thirdpage from "./components/ThirdPage.jsx";
 import Fourthpage from "./components/FourthPage.jsx";
 import Fifthpage from "./components/FifthPage.jsx";
 import CustomerReviews from "./components/CustomerReviews.jsx";
+import Times from "./components/Times.jsx";
+import Branches from "./components/Branches.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
     return (
@@ -18,6 +21,9 @@ function App() {
             <Fourthpage />
             <Fifthpage />
             <CustomerReviews />
+            <Times />
+            <Branches />
+            <Footer />
         </Router>
     );
 }
