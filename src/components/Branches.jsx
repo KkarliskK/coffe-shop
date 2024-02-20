@@ -15,23 +15,23 @@ function Branches() {
                 </div>
                 <div className={css.imageBox}>
                     <div className={css.splitBox}>
-                        <img src={newYork}/>
-                        <button>New York</button>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
+                        <img src={newYork} className={css.image}/>
+                        <button className={css.button}>New York</button>
+                        <p className={css.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
                             excepturi explicabo fugit illum ipsum iure, iusto labore nisi optio placeat qui quibusdam
                             quis quisquam reprehenderit similique, ullam!</p>
                     </div>
                     <div className={css.splitBox}>
-                        <img src={jakarta}/>
-                        <button>Jakarta</button>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
+                        <img src={jakarta} className={css.image}/>
+                        <button className={css.button}>Jakarta</button>
+                        <p className={css.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
                             excepturi explicabo fugit illum ipsum iure, iusto labore nisi optio placeat qui quibusdam
                             quis quisquam reprehenderit similique, ullam!</p>
                     </div>
                     <div className={css.splitBox}>
-                        <img src={paris}/>
-                        <button>Paris</button>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
+                        <img src={paris} className={css.image}/>
+                        <button className={css.button}>Paris</button>
+                        <p className={css.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis doloremque, esse
                             excepturi explicabo fugit illum ipsum iure, iusto labore nisi optio placeat qui quibusdam
                             quis quisquam reprehenderit similique, ullam!</p>
                     </div>

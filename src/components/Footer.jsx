@@ -14,20 +14,20 @@ function Footer() {
             <div className={css.mainFooterContainer}>
                 <div className={css.footerContainer}>
                     <div className={css.splitBox}>
-                        <img src={logo}/>
+                        <img src={logo} className={css.logo}/>
                     </div>
                     <div className={css.splitBox}>
-                        <h3>Information.</h3>
-                        <p>About us</p>
-                        <p>Branches</p>
-                        <p>Menu</p>
-                        <p>Contact</p>
-                        <p>Map</p>
+                        <h3 className={css.h3}>Information.</h3>
+                        <p className={css.p}>About us</p>
+                        <p className={css.p}>Branches</p>
+                        <p className={css.p}>Menu</p>
+                        <p className={css.p}>Contact</p>
+                        <p className={css.p}>Map</p>
                     </div>
                     <div className={css.splitBox}>
-                        <h3>Contact Us.</h3>
-                        <p>Support</p>
-                        <p>your_id@gmail.com</p>
+                        <h3 className={css.h3}>Contact Us.</h3>
+                        <p className={css.p}>Support</p>
+                        <p className={css.p}>your_id@gmail.com</p>
                     </div>
                 </div>
                 <div className={css.footerBar}>

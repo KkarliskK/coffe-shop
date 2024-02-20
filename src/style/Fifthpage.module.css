@@ -32,14 +32,14 @@
 .bigText{
     font-family: "Grand Hotel", cursive;
     font-weight: 400;
-    font-size: 168px;
+    font-size: 118px;
     letter-spacing: 2px;
     color: white;
-    margin: 0;
-    margin-left: 40px;
     width: 60%;
     height: 17vh;
     text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
 }
 
 .textBox{
