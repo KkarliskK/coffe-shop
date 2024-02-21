@@ -79,3 +79,34 @@
     min-height: 90vh;
 }
 
+.coffe{
+    position: absolute;
+    right: 700px;
+    top: 150px;
+    transform: rotateZ(30deg);
+    width: 70px
+}
+.coffePot{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    transform: rotateY(180deg) ;
+    width: 80px;
+
+}
+.coffeBean{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    transform: rotateZ(45deg);
+    width: 50px;
+}
+
+.coffeBean2{
+    position: absolute;
+    top: 750px;
+    left: 300px;
+    transform: rotateZ(-25deg);
+    z-index: 2;
+    width: 80px;
+}
