@@ -11,7 +11,7 @@ function Footer() {
     return (
         <>
             <img src={wave5} className={css.wave5}/>
-            <div className={css.mainFooterContainer}>
+            <div id='contact' className={css.mainFooterContainer}>
                 <div className={css.footerContainer}>
                     <div className={css.splitBox}>
                         <img src={logo} className={css.logo}/>

@@ -25,9 +25,15 @@ function Fifthpage() {
                         <p className={css.p}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque nesciunt magni sed vero dignissimos, incidunt facilis iure id vel accusantium dolorem quidem quibusdam inventore labore rem doloribus cum totam tenetur.</p>
                         <div className={css.validateVoucher}>Validate Until: 01.05.2020</div>
                         <div className={css.socialIcons}>
-                            <img src={twt} className={css.icon}/><p>Twitter</p>
-                            <img src={ig} className={css.icon}/><p>Instagram</p>
-                            <img src={fb} className={css.icon}/><p>Facebook</p>
+                            <div className={css.iconElement}>
+                                <img src={twt} className={css.icon}/><p className={css.picon}>Twitter</p>
+                            </div>
+                            <div className={css.iconElement}>
+                                <img src={ig} className={css.icon}/><p className={css.picon}>Instagram</p>
+                            </div>
+                            <div className={css.iconElement}>
+                                <img src={fb} className={css.icon}/><p className={css.picon}>Facebook</p>
+                            </div>
                         </div>
                     </div>
                 </div>

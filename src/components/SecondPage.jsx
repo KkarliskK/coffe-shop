@@ -7,7 +7,7 @@ import coffePot from '../assets/icons/coffeePot.png';
 function Secondpage() {
     return (
         <>
-            <div className={css.secondpage}>
+            <div id='about' className={css.secondpage}>
                 <img className={css.coffe} src={coffe}/>
                 <img className={css.coffePot} src={coffePot}/>
                 <img className={css.coffeBean} src={coffeBean}/>

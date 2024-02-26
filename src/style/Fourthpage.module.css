@@ -59,9 +59,8 @@
     text-align: left;
 }
 
-.coffe778{
+.coffe777{
     width: 50%;
-
 }
 
 .fourthpageContents{
@@ -95,4 +94,10 @@
 .buttonBox{
     display: flex;
     width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .coffe777{
+        height: 50%;
+    }
 }

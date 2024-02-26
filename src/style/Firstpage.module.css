@@ -110,3 +110,39 @@
     z-index: 2;
     width: 80px;
 }
+
+/*@media screen and (max-width: 600px) {*/
+/*    .bigText{*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .background775{*/
+/*        width: 80%;*/
+/*    }*/
+
+/*    .h2{*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .p{*/
+/*        z-index: 2;*/
+/*        width: 100%;*/
+/*        color: black;*/
+/*        font-weight: bold;*/
+/*    }*/
+
+/*    .contents{*/
+/*        width: 90%;*/
+/*        height: 40vh;*/
+/*    }*/
+
+/*    .orderButton{*/
+/*        z-index: 2;*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    .wave1{*/
+/*        height: 15vh;*/
+/*    }*/
+/*}*/
+
