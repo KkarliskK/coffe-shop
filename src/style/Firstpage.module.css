@@ -21,15 +21,15 @@
 
 .background775{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 0px;
+    bottom: 0px;
     width: 50%;
     height: 80vh;
 }
 
 .wave1{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     z-index: 1;
     width: 100%;
 }
@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 600px) {
     .bigText{
-        z-index: 2;
+        z-index: 1;
         font-size: 128px;
     }
 
@@ -138,6 +138,7 @@
 
     .firstpage{
         align-items: center;
+        height: auto;
     }
 
     .contents{
