@@ -20,12 +20,14 @@ function Secondpage() {
                         <button className={css.orderButton}>Order Now</button>
                     </div>
                     <div className={css.splitdivp}>
-                        <p className={css.p}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at
+                        <img src={background776} className={css.background776}/>
+                        <p className={css.p}>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at
                             consequatur cum debitis dolor incidunt ipsum iure molestiae odio quae, ratione saepe sequi,
-                            suscipit temporibus vitae? Blanditiis nam neque nihil.</p>
+                            suscipit temporibus vitae? Blanditiis nam neque nihil.
+                        </p>
                     </div>
                 </div>
-                <img src={background776} className={css.background776}/>
             </div>
         </>
     );
